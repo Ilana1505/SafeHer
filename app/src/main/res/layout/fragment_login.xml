@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     android:background="#FEE0F2">
 
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="209dp"
+        android:layout_height="154dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/welcome_image_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/welcome_image" />
+
     <EditText
         android:id="@+id/emailEt"
         android:hint="Email"
